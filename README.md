@@ -9,15 +9,19 @@ jogo simples aonde o jogador precisa acertar um número gerado aleatoriamente en
 - Scanner
 - Random
  
-package advinheonumero;
-import java.util.Random;
-import java.util.Scanner;
 
 
-public class Adivinheonumero {
 
-   
-    public static void main(String[] args) {
+
+      package advinheonumero;
+      import java.util.Random;
+      import java.util.Scanner;
+
+    
+      public class Adivinheonumero {
+    
+    
+      public static void main(String[] args) {
        
         
         Scanner scanner = new Scanner(System.in);
