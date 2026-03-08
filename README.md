@@ -1,4 +1,4 @@
-# jogo-adivinhar-numero
+[Adivinheonumero.java](https://github.com/user-attachments/files/25828282/Adivinheonumero.java)# jogo-adivinhar-numero
 jogo simples de aonde o jogador precisa acertar um número gerado aleatoriamente entre 1 e 100
 
 # características
@@ -9,5 +9,46 @@ jogo simples de aonde o jogador precisa acertar um número gerado aleatoriamente
 - Java
 - Scanner
 - Random
+
+[Uploading Adivinheonumero.jav
+package advinheonumero;
+import java.util.Random;
+import java.util.Scanner;
+
+
+public class Adivinheonumero {
+
+   
+    public static void main(String[] args) {
+       
+        
+        Scanner scanner = new Scanner(System.in);
+        Random random = new Random();
+        
+        int numeroSecreto = random.nextInt(100) + 1;
+        int tentativa;
+        
+        System.out.println("Tente adivinhar o numero entre 1 e 100");
+        
+        do{
+            System.out.print("Digite seu palpite: ");
+            tentativa = scanner.nextInt();
+            
+        if (tentativa > numeroSecreto) {
+            System.out.println("Muito alto");
+                    
+        }
+        
+        else if (tentativa < numeroSecreto) {
+            System.out.println("Muito baixo");
+        
+        }
+      
+      }while (tentativa != numeroSecreto);
+            System.out.println("Voce acertou");
+        
+    }
+}a…]()
+
 
 
