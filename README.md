@@ -8,8 +8,7 @@ jogo simples aonde o jogador precisa acertar um número gerado aleatoriamente en
 - Java
 - Scanner
 - Random
-
-[Uploading Adivinheonumero.jav
+ 
 package advinheonumero;
 import java.util.Random;
 import java.util.Scanner;
