@@ -12,7 +12,7 @@ jogo simples aonde o jogador precisa acertar um número gerado aleatoriamente en
 
 
 
-
+# Código inteiro:
       package advinheonumero;
       import java.util.Random;
       import java.util.Scanner;
@@ -48,8 +48,40 @@ jogo simples aonde o jogador precisa acertar um número gerado aleatoriamente en
       
        }while (tentativa != numeroSecreto);
             System.out.println("Voce acertou");
+           
         
        }
       }
 
+# Código para copiar e colar 
+ 
+     //import java.util.Scanner;
+     //import java.util.Random;
+     
+     
+     Scanner scanner = new Scanner(System.in);
+     Random random = new Random();
+  
+     int numeroSecreto = random.nextInt(100) + 1;
+     int tentativa;
+  
+     System.out.println("Tente adivinhar o numero entre 1 e 100");
+  
+    do{
+      System.out.print("Digite seu palpite: ");
+      tentativa = scanner.nextInt();
+      
+    if (tentativa > numeroSecreto) {
+      System.out.println("Muito alto");
+              
+    }
+  
+    else if (tentativa < numeroSecreto) {
+      System.out.println("Muito baixo");
+  
+    }
 
+    }while (tentativa != numeroSecreto);
+      System.out.println("Voce acertou");
+  
+    
