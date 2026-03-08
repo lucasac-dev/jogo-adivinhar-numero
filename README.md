@@ -1,4 +1,4 @@
-jogo simples de aonde o jogador precisa acertar um número gerado aleatoriamente entre 1 e 100
+jogo simples aonde o jogador precisa acertar um número gerado aleatoriamente entre 1 e 100.
 
 # características
 - Geração de número aleatório
