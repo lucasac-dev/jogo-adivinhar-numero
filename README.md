@@ -46,10 +46,10 @@ jogo simples aonde o jogador precisa acertar um número gerado aleatoriamente en
         
         }
       
-      }while (tentativa != numeroSecreto);
+       }while (tentativa != numeroSecreto);
             System.out.println("Voce acertou");
         
+       }
       }
-
 
 
