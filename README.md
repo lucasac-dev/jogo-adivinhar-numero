@@ -1,4 +1,3 @@
-[Adivinheonumero.java](https://github.com/user-attachments/files/25828282/Adivinheonumero.java)# jogo-adivinhar-numero
 jogo simples de aonde o jogador precisa acertar um número gerado aleatoriamente entre 1 e 100
 
 # características
